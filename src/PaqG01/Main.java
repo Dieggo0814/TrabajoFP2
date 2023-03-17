@@ -7,7 +7,6 @@ public class Main {
         System.out.println("Mijael Calle Canqui");
         System.out.println("Hola a todos!");
         System.out.println("Hola");
-
         System.out.println("Hola1");
     }
 }
