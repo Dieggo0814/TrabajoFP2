@@ -18,4 +18,24 @@ public class Hub {
         return this.hub;
     }
 
+    //metodo toString
+    public String toString(){
+
+        String s = "";
+
+        for (int i = 0; i < hub.length; i++) {
+            for (int j = 0; j < hub[i].length; j++) {
+                if (hub[i][j] == null) {
+                    s += "[N]";
+                } else {
+                    s += "[" + hub[i][j].getID() + "]";
+                }
+                s += "\n";
+            }
+            s+="\n";
+
+        }
+        return s;
+    }
+
 }
